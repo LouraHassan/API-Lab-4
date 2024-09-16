@@ -16,8 +16,8 @@ body{
     }
     .inputdiv{
        
-        grid-template-columns: auto auto;
-     
+flex-direction: row;
+flex-wrap: wrap;  
     }
     .card{
         width: 50vw;
@@ -38,7 +38,8 @@ body{
 
     .inputdiv{
        
-        grid-template-columns: auto auto auto auto ;
+        flex-direction: row;
+        flex-wrap: wrap;
      
     }
     .card{
@@ -58,8 +59,8 @@ body{
     }
     .inputdiv{
        
-        grid-template-columns: auto auto auto auto auto;
-     
+        flex-direction: row;
+        flex-wrap: wrap;
     }
     .card{
         width: 25vw;
@@ -77,9 +78,8 @@ body{
  
     }
     .inputdiv{
-       
-        grid-template-columns: auto auto auto auto auto;
-     
+        flex-direction: row;
+        flex-wrap: wrap;
     }
     .card{
         width: 20vw;
@@ -100,8 +100,9 @@ align-content: center;
 
 .inputdiv{
     min-height: 10vh;
-    display: grid;
-    justify-content: start;
+    display: flex;
+   
+    justify-content: center;
     align-items: center;
 }
 label{
@@ -137,6 +138,8 @@ background-color: white;
 }
 .img{
     width: 80%;
+    border-radius: 10px;
+
 }
 .title{
     font-size: larger;
