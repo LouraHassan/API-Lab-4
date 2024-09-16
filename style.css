@@ -1,0 +1,159 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
+body{
+    background-color: #e1d8e2;
+}
+@media only screen and (min-width: 320px){
+
+    .container{
+        grid-template-columns:auto;
+ 
+    }
+    .inputdiv{
+       
+        grid-template-columns: auto auto;
+     
+    }
+    .card{
+        width: 50vw;
+     
+    }
+    .imgBox{
+  
+    height: 20vh;
+    }
+}
+
+
+@media only screen and (min-width: 600px) and (max-width: 767px){
+    .container{
+        grid-template-columns:auto auto;
+ 
+    }
+
+    .inputdiv{
+       
+        grid-template-columns: auto auto auto auto ;
+     
+    }
+    .card{
+        width: 40vw;
+     
+    }
+    .imgBox{
+  
+        height: 40vh;
+        }
+}
+
+@media only screen and (min-width: 768px) {
+    .container{
+        grid-template-columns:auto auto auto ;
+ 
+    }
+    .inputdiv{
+       
+        grid-template-columns: auto auto auto auto auto;
+     
+    }
+    .card{
+        width: 25vw;
+     
+    }
+    .imgBox{
+  
+        height: 40vh;
+        }
+
+}
+@media only screen and (min-width: 1000px) {
+    .container{
+        grid-template-columns:auto auto auto auto ;
+ 
+    }
+    .inputdiv{
+       
+        grid-template-columns: auto auto auto auto auto;
+     
+    }
+    .card{
+        width: 20vw;
+     
+    }
+    .imgBox{
+        height: 60vh;
+        }
+
+}
+.container{
+    display: grid;
+    gap: 10px;
+padding: 10px;
+justify-items: center;
+align-content: center;
+}
+
+.inputdiv{
+    min-height: 10vh;
+    display: grid;
+    justify-content: start;
+    align-items: center;
+}
+label{
+    font-size: larger;
+    color: #3b154e;
+    font-weight: bold;
+    margin: 5px;
+}
+input{
+    padding: 10px;
+    border-radius: 8px;
+margin: 5px;
+}
+#addBtn{
+    padding: 10px;
+    background-color: rgb(92, 74, 109);
+    color: white;
+    font-size: larger;
+    border-radius: 8px;
+
+margin: 5px;
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+background-color: white;
+    border: 1px solid black;
+    border-radius: 10px;
+    box-shadow: 2px 2px 4px grey;
+}
+.img{
+    width: 80%;
+}
+.title{
+    font-size: larger;
+    color: #3b154e;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin: 10px;
+}
+.deleteBtn{
+    margin: 10px;
+
+    padding: 10px;
+    background-color: rgb(204, 72, 85);
+    color: white;
+    font-size: larger;
+    border-radius: 8px;
+
+margin: 5px;
+}
+
